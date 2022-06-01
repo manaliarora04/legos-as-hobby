@@ -1,0 +1,253 @@
+html,
+body {
+  height: 100%;
+}
+
+/*header css*/
+.logo img {
+  height: 100px;
+  width: auto;
+}
+
+/*header css end*/
+
+/* body css start */
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .center-image {
+  display: inline-block;
+  position: relative;
+}
+
+.container .center-image .get-started {
+  position: absolute;
+  bottom: 14em;
+  right: 16em;
+  font-size: xx-large;
+  width: fit-content;
+  font-weight: 500;
+}
+
+.container .get-started {
+  position: relative;
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.card .card-img-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.card .card-body {
+  text-align: center;
+}
+
+.main {
+  flex-grow: 2;
+  margin: 8px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.display-4 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.navigation {
+  margin: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+footer {
+
+  /*padding: 10px;*/
+  text-align: center;
+  /* Center text*/
+  background: white;
+  /* background: rgb(49, 49, 49); */
+  /* Grey background */
+  /* opacity: 75%; */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.text {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.number {
+  text-align: right;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+
+footer .contact a {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+footer .contact div:first-child {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+
+}
+
+.contact {
+  display: flex;
+
+}
+
+.footer-image {
+  height: 32px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.closeIcon,
+.hamburger {
+  display: none;
+}
+
+.links {
+  padding: 5px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+
+}
+
+.links ul {
+  padding: 10;
+  list-style-type: none;
+  justify-content: right;
+  flex: 5px;
+
+}
+
+.links li {
+  text-align: right;
+  margin-left: 2rem;
+
+}
+
+.links a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.menuItem {
+  border-bottom: 0.15rem solid transparent;
+}
+
+.menuItem:hover,
+.menuItem.active {
+  border-bottom: 0.15rem solid white;
+}
+
+@media only screen and (min-width: 600px) {
+  .links ul {
+    display: flex;
+  }
+
+  .links li {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }
+
+
+  .hamburger {
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hamburger,
+  .closeIcon {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: -25px;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4.5rem;
+    width: fit-content;
+    padding-right: 3rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+}

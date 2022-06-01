@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Week-20-Bootstrap-activity"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "baking-as-hobby"
+	}
+}
