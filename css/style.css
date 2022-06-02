@@ -19,15 +19,18 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  
 }
 
 .container img {
   width: 100%;
+
 }
 
 .container .center-image {
   display: inline-block;
   position: relative;
+  
 }
 
 .container .center-image .get-started {
@@ -198,6 +201,12 @@ footer .contact div:first-child {
 .menuItem:hover,
 .menuItem.active {
   border-bottom: 0.15rem solid white;
+}
+button {
+  padding: 10px;
+  margin-left: 35px;
+  color: white;
+  background-color:blue;
 }
 
 @media only screen and (min-width: 600px) {
