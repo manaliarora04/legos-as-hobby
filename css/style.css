@@ -87,22 +87,33 @@ h2 {
 
 }
 
-
 footer {
+  background-color: #e9ecef;
+}
 
-  /*padding: 10px;*/
-  text-align: center;
-  /* Center text*/
-  background: white;
-  /* background: rgb(49, 49, 49); */
-  /* Grey background */
-  /* opacity: 75%; */
-  color: black;
+footer > section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
+  margin: 1rem;
+}
+
+footer > section > .footer-text {
   width: 100%;
+}
+
+footer .logo img {
+  height: 60px;
+  width: auto;
+}
+
+footer span {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+footer .social-media a {
+  display: flex;
+  align-items: center;
 }
 
 .text {
