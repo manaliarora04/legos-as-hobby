@@ -31,12 +31,13 @@ body {
   display: inline-block;
   position: relative;
   
+  
 }
 
 .container .center-image .get-started {
   position: absolute;
-  bottom: 14em;
-  right: 16em;
+  bottom: 12em;
+  right: 14em;
   font-size: xx-large;
   width: fit-content;
   font-weight: 500;
