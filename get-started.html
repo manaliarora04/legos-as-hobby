@@ -41,21 +41,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:wght@400;500;600;700&family=Ms+Madi&family=Open+Sans:wght@300&display=swap"
         rel="stylesheet">
-    <header class="navigation">
-        <div class="logo">
-            <a href="index.html"><img src="images/lego-logo.jpg" /></a>
-        </div>
-        <nav class="links">
-            <ul class="menu">
-                <li><a href="my-work.html" class="menuItem">Lego Love</a></li>
-                <li><a href="skills.html" class="menuItem">Similar Hobbies</a></li>
-
-            </ul>
-        </nav>
-
-        <img src="images/hamburger.png" class="hamburger" />
-        <img src="images/close.png" class="closeIcon" />
-    </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="./images/lego-logo.jpg" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lego Love</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="similar-hobbies.html">Similar Hobbies</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -137,6 +139,10 @@
             </div>
         </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 <script src="js/index.js"></script>
 

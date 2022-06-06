@@ -4,7 +4,7 @@ body {
 }
 
 /*header css*/
-.logo img {
+.logo {
   height: 100px;
   width: auto;
 }
@@ -20,6 +20,13 @@ body {
   flex-direction: column;
   margin: 0;
   
+}
+.hero-image {
+  background-image: url("../images/lego-hero-image.jpg");
+  height: 600px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
 }
 
 .container img {
@@ -146,17 +153,17 @@ footer .social-media a {
   align-items: center;
 }
 
-.text {
+/* .text {
   text-align: right;
   margin-right: 15px;
   font-size: 18px;
-}
+} */
 
-.number {
+/* .number {
   text-align: right;
   margin-right: 15px;
   font-size: 18px;
-}
+} */
 
 
 footer .contact a {
@@ -204,6 +211,7 @@ footer .contact div:first-child {
   list-style-type: none;
   justify-content: right;
   flex: 5px;
+  
 
 }
 
@@ -219,8 +227,9 @@ footer .contact div:first-child {
   font-weight: 500;
   text-decoration: none;
   color: black;
+ 
 }
-
+/* 
 .menuItem {
   border-bottom: 0.15rem solid transparent;
 }
@@ -228,7 +237,7 @@ footer .contact div:first-child {
 .menuItem:hover,
 .menuItem.active {
   border-bottom: 0.15rem solid white;
-}
+} */
 button {
   padding: 10px;
   margin-left: 35px;
@@ -277,7 +286,7 @@ button {
     height: 50px;
     width: 50px;
   }
-
+/* 
   .menu {
     position: fixed;
     transform: translateY(-100%);
@@ -296,5 +305,5 @@ button {
 
   .showMenu {
     transform: translateY(0);
-  }
+  } */
 }
