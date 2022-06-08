@@ -141,6 +141,7 @@ footer > section > .footer-text {
 footer .logo img {
   height: 60px;
   width: auto;
+  margin-top: 10px;
 }
 
 footer span {
